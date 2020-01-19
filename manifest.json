@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "PIP FILI",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["start.js"],
+      "css": ["content.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": ["pip-icon.svg"]
+}
